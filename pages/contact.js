@@ -15,4 +15,22 @@ function ContactPage() {
   );
 }
 
+// export async function getServerSideProps(context) {
+//   const data = await getContent();
+
+//   if (!data) {
+//     return {
+//       notFound: true
+//       // redirect: {
+//       //   destination: '/',
+//       //   permanent: false
+//       // }
+//     };
+//   }
+
+//   return {
+//     props: { data }
+//   };
+// }
+
 export default ContactPage;
